@@ -4,11 +4,13 @@
 
 module.exports = {
   db: {
-    uri: 'mongodb+srv://llerenabarruetos:%50izza357@cen3031-bootcamp2plus-namdl.mongodb.net/Bootcamp2?retryWrites=true&w=majority'
+    uri: ''
 	//place the URI of your mongo database here.
   }, 
   openCage: {
-    key: 'f7c736579ace45519b894e0393a1d5ffv' //place your openCage public key here - Sign-up for a free key https://opencagedata.com/
+    key: '' //place your openCage public key here - Sign-up for a free key https://opencagedata.com/
   },
   port: 8080
 };
+
+//my config.js file is on Canvas

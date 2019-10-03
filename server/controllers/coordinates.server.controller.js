@@ -32,7 +32,6 @@ module.exports = function(req, res, next) {		//forward geocoding - address to co
 		
         //JSON.parse to get contents. Remember to look at the response's JSON format in open cage data
 			var parsedBody = JSON.parse(body);
-			//req.results = parsedBody.results.geometry;
 			req.results = parsedBody.results[0].geometry;
         
         /*Save the coordinates in req.results -> 
