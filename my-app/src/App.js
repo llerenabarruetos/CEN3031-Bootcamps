@@ -14,7 +14,7 @@ class App extends React.Component {
       filterText: '',
       selectedBuilding: [], //id of the building selected, to be put into data[id] to get its info
       
-      addedLocations: [{name: 'Gator Corner Dining', code: 'GCDC', address: 'Gale Lem'}],
+      addedLocations: [],
 
       newestLoc: ''
     };
